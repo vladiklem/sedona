@@ -1,0 +1,28 @@
+@import "../vendors/bulma/sass/utilities/all";
+
+.features-list{
+  padding: 14px 0;
+  
+  @include tablet {
+    display: flex;
+  }
+}
+
+.features-list__item{
+  padding: 31px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+  @include tablet{
+    padding: 61px 50px;
+  }
+}
+
+.features-list__title{
+  @include tablet{
+    margin: 33px 0;
+  }
+  margin: 16px 0;
+}

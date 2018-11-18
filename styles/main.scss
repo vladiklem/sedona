@@ -1,0 +1,29 @@
+@import "vendors/normalize";
+@import "vendors/bulma/sass/utilities/all";
+@import "vendors/bulma/sass/base/all";
+@import "vendors/bulma/sass/elements/container";
+
+@import "units/colors/output";
+@import "units/typography/output";
+
+@import "components/navbar";
+@import "components/intro-section";
+@import "components/features-list";
+@import "components/three-reasons-section";
+@import "components/sedona-description";
+
+@import "elements/one-reason-container";
+
+@media (min-width: 1201px){
+  body{
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 19px 11px rgba(191,191,191,1);
+  }
+}
+
+//devils bridge section
+
+.reversed-row{
+  flex-direction: row-reverse;
+}

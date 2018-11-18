@@ -3,137 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/main.css" />
   <title>Седона — небольшой городок в Аризоне, заслуживающий большего!</title>
 </head>
 <body>
-  <header>
+  <header class="main-menu">
     <nav>
-      <a href="#">
-        <img width="138" height="70" src="./images/logo.png" alt="Логотип City of Sedona" />
+      <a class="main-menu__logo" href="#">
+        <img width="138" height="70" src="./images/logo.png" alt="Logo City of Sedona" />
       </a>
-
-      <ul>
-        <li><a href="#">Информация</a></li>
-        <li><a href="#">Фото и видео</a></li>
-        <li><a href="#">Карта штата</a></li>
-        <li><a href="#">Гостиницы</a></li>
+      <ul class="main-menu__list">
+        <li class="main-menu__item main-menu__item--1"><a class="main-menu__link" href="#">информация</a></li>
+        <li class="main-menu__item main-menu__item--2"><a class="main-menu__link" href="#">фото и видео</a></li>
+        <li class="main-menu__item main-menu__item--3"><a class="main-menu__link" href="#">карта штата</a></li>
+        <li class="main-menu__item main-menu__item--4"><a class="main-menu__link" href="#">гостиницы</a></li>
       </ul>
     </nav>
   </header>
+    <main>
+        <section class="intro-section">
+            <img class="intro-section__background" src="./images/red-rocks.jpg" alt="Red rocks near Sedona" />
+            <img class="intro-section__welcome" width="256" height="80" src="./images/welcome-to-the-gorgeous.png" alt="Welcome to the gorgeous" />
+            <img class="intro-section__sedona" width="458" height="78" src="./images/sedona.png" alt="Sedona" />
+            <img width="296" height="80" src="./images/grand-canyon-sucks.png" alt="Because the Grand Canyon sucks">
+        </section>
+        <section class="sedona-description">
+          <h1 class="sedona-description__title large-text--mod">седона - небольшой городок в аризоне заслуживающий большего!</h1>
+          <p class="sedona-description__reasons mid-text--mod">рассмотрим 5 причин по которым седона круче, чем гранд каньон!</p>
+        </section>
+        <section class="real-city-section">
+            <div class="one-reason-container">
+              <div class="one-reason-container__description">
+                <h2 class="one-reason-container__title large-text--mod">Настоящий городок</h2>
+                <p class="one-reason-container__num mid-text--mod">-№1-</p>
+                <p class="mid-text--mod">Cедона — не аттракцион для туристов, там течет своя жизнь</p>
+              </div>
+              <div class="one-reason-container__img-wrapper">
+                <img class="one-reason-container__image" src="./images/sedona-camp.jpg" alt="Real town in Sedona" />
+              </div>
+            </div>
+            <ul class="real-city-section__list features-list">
+                <li class="features-list__item">
+                    <img src="icons/house.svg" alt="House logo"/>
+                    <h3 class="features-list__title large-text--mod">Жилье</h3>
+                    <p class="mid-text--mod">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                </li>
+                <li class="features-list__item">
+                    <img src="icons/burger.svg" alt="Burger logo"/>
+                    <h3 class="features-list__title large-text--mod">Еда</h3>
+                    <p class="mid-text--mod">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </li>
+                <li class="features-list__item">
+                    <img src="icons/gift.svg" alt="Gift logo"/>
+                    <h3 class="features-list__title large-text--mod">Сувениры</h3>
+                    <p class="mid-text--mod">Не только китайского, но и местного производства!</p>
+                </li>
+            </ul>
+        </section>
+        <section class="devils-bridge-section">
+            <div class="reversed-row one-reason-container">
+              <div class="one-reason-container__description">
+                <h2 class="one-reason-container__title large-text--mod">Там есть Мост Дьявола</h2>
+                <p class="one-reason-container__num mid-text--mod">-№2-</p>
+                <p class="mid-text--mod">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+              </div>
+              <div class="one-reason-container__img-wrapper">
+                <img class="one-reason-container__image" src="./images/devils-bridge.jpg" alt="Devil's bridge in Sedona" />
+              </div>
+            </div>
+        </section>
+        <div class="three-reasons-section">
+          <section class="three-reasons-section__item">
+            <h2 class="three-reasons-section__title large-text--mod">Небольшая площадь</h2>
+            <p class="one-reason-container__num mid-text--mod">- №3-</p>
+            <p class="mid-text--mod">Все достопримечательности находятся очень близко </p>
+          </section>
 
-  <main>
-    <h1>Сайт выбота гостиниц в Седоне</h1>
+          <section class="three-reasons-section__item">
+            <h2 class="three-reasons-section__title large-text--mod">Красивая дорога</h2>
+            <p class="one-reason-container__num mid-text--mod">- №4-</p>
+            <p class="mid-text--mod">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </section>
 
-    <section>
-      <h2>Вступительный раздел с баннером о Седоне</h2>
-      <img src="./images/red-rocks.jpg" alt="Красные скалы возле Седоны" />
-      <img src="./images/welcome-to-the-gorgeous.png" alt="Welcome to the gorgeous" />
-      <img src="./images/sedona.png" alt="Sedona" />
-      <img src="./images/grand-canyon-sucks.png" alt="Because the Grand Canyon sucks">
-    </section>
+          <section class="three-reasons-section__item">
+            <h2 class="three-reasons-section__title large-text--mod">Мало туристов</h2>
+            <p class="one-reason-container__num mid-text--mod">- №5-</p>
+            <p class="mid-text--mod">Большинство едет в гранд каньон и толпится там</p>
+          </section>
+        </div>
+        <section>
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
 
-    <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-    
-    <section>
-      <h2>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
+        <form name="appartments-search" method="post">
+            <h2>Поиск гостиницы в Седоне</h2>
+            <p>
+                <label for="appartments-search-check-in">Дата заезда:</label>
+                <input id="appartments-search-check-in" type="date" />
+            </p>
+            <p>
+                <label for="appartments-search-check-out">Дата выезда:</label>
+                <input id="appartments-search-check-out" type="date" />
+            </p>
+            <p>
+                <label for="appartments-search-adults-amount">Взрослые:</label>
+                <input type="number" id="appartments-search-adults-amount" />
+            </p>
+            <p>
+                <label for="appartments-search-children-amount">Дети:</label>
+                <input type="number" id="appartments-search-children-amount" />
+            </p>
 
-      <section>
-        <h3>Настоящий городок</h3>
-        <p>#1</p>
-        <p>Cедона — не аттракцион для туристов, там течет своя жизнь</p>
-
-        <img src="./images/sedona-camp.jpg" alt="Настоящий годок в Седоне" />
+            <button>Найти</button>
+        </form>
+        </section>
+        <section>
+            <img src="./images/sedona-map.jpg" alt="Town located on both sides of border between Kokonio and Yawapai, Arizona state" />
+        </section>
+    </main>
+    <footer>
+        <p>
+            <span>#visitsedona</span>
+        </p>
 
         <ul>
-          <li>
-            <h4>Жилье</h4>
-            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-          </li>
-          <li>
-            <h4>Еда</h4>
-            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-          </li>
-          <li>
-            <h4>Сувениры</h4>
-            <p>Не только китайского, но и местного производства!</p>
-          </li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Youtube</a></li>
         </ul>
-      </section>
 
-      <section>
-        <h3>Там есть Мост Дьявола</h3>
-        <p>#2</p>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-        <img src="./images/devils-bridge.jpg" alt="Мост Дьявола в Седоне" />
-      </section>
-
-      <section>
-        <h3>Небольшая площадь</h3>
-        <p>#3</p>
-        <p>Все достопримечательности находятся очень близко</p>
-      </section>
-
-      <section>
-        <h3>Красивая дорога</h3>
-        <p>#4</p>
-        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-      </section>
-
-      <section>
-        <h3>Мало туристов</h3>
-        <p>#5</p>
-        <p>Большинство едет в гранд каньон и толпится там</p>
-      </section>
-    </section>
-
-  <section>
-      <p>Заинтересовались?</p>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
-
-      <form name="appartments-search" method="post">
-        <h2>Поиск гостиницы в Седоне</h2>
         <p>
-          <label for="appartments-search-check-in">Дата заезда:</label>
-          <input id="appartments-search-check-in" type="date" />
+            <span>Website by</span> <img width="115" height="41" src="./icons/htmlacademy-logo.svg" alt="HtmlAcademy Logo" />
         </p>
-        <p>
-          <label for="appartments-search-check-out">Дата выезда:</label>
-          <input id="appartments-search-check-out" type="date" />
-        </p>
-        <p>
-          <label for="appartments-search-adults-amount">Взрослые:</label>
-          <input type="number" id="appartments-search-adults-amount" />
-        </p>
-        <p>
-          <label for="appartments-search-children-amount">Дети:</label>
-          <input type="number" id="appartments-search-children-amount" />
-        </p>
-
-        <button type="submit">Найти</button>
-      </form>
-    </section>
-
-    <section>
-      <h2>Карта местности Седоны</h2>
-      <img src="./images/sedona-map.jpg" alt="Город, расположенный по обе стороны границы между округами Коконино и Явапай в северной области Долины Верде штата Аризона" />
-    </section>
-  </main>
-
-  <footer>
-    <p>
-      <span>#visitsedona</span>
-    </p>
-
-    <ul>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Youtube</a></li>
-    </ul>
-
-    <p>
-      <span>Website by</span> <img width="115" height="41" src="./icons/htmlacademy.svg" alt="Логотип HtmlAcademy" />
-    </p>
-  </footer>
+    </footer>
 </body>
 </html>

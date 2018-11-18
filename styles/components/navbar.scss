@@ -1,0 +1,64 @@
+@import "../units/typography/utils";
+
+header{
+  background-color: #fff;
+}
+
+.main-menu__logo{
+  position: absolute;
+  left: calc(50% - 69px);
+  top:0;
+}
+
+.main-menu__list{
+  display: flex;
+  max-width: 1056px;
+  margin: 0 auto;
+  
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 5px;
+  }
+  
+}
+
+.main-menu__item{
+  flex-basis: 152px;
+  padding: 16.8px 0;
+}
+
+.main-menu__link{
+  font-size: $typography-text-small;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-menu__item--1{
+  text-align: left;
+  flex-basis: 22.6%;
+}
+
+.main-menu__item--2{
+  text-align: left;
+  flex-basis: 27.4%;
+}
+
+.main-menu__item--3{
+  text-align: right;
+  flex-basis: 27.4%;
+}
+
+.main-menu__item--4{
+  text-align: right;
+  flex-basis: 22.6%;
+}
+
+@media (max-width:1199px){
+  .main-menu__list{
+    max-width: 676px;
+  }
+}
+// 240 

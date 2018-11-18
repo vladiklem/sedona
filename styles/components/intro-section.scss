@@ -1,0 +1,44 @@
+.intro-section{
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  height: 508px;
+  padding: 78px;
+  background-image: url(../images/background-image-bottom-shape.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro-section__background{  
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  max-width: none;
+  
+  @supports(object-fit: cover){
+      object-position: center;
+  }
+  
+  @include desktop{
+    @supports(object-fit: cover){
+      object-fit: cover;
+      object-position: center -49px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+    
+}
+
+.intro-section__sedona{
+  margin-top: 52px;
+  margin-bottom: 56px;
+}
