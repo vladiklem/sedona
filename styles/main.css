@@ -1775,21 +1775,44 @@ header {
 }
 
 .features-list__item {
-  padding: 31px 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  padding: 20px;
+  justify-content: center;
   color: black;
 }
 @media screen and (min-width: 769px), print {
   .features-list__item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     padding: 61px 50px;
+    text-align: center;
+  }
+}
+
+.features-list__img {
+  height: 34px;
+}
+@media screen and (min-width: 769px), print {
+  .features-list__img {
+    height: auto;
+  }
+}
+
+.features-list__description-wrapper {
+  flex-basis: 75%;
+  margin-left: 10px;
+}
+@media screen and (min-width: 769px), print {
+  .features-list__description-wrapper {
+    flex-basis: auto;
+    margin-left: 0;
   }
 }
 
 .features-list__title {
-  margin: 16px 0;
+  margin-top: 6px;
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 769px), print {
   .features-list__title {
@@ -1832,7 +1855,10 @@ header {
 }
 
 .three-reasons-section__item {
-  padding: 40px;
+  padding: 40px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid #e5e5e5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1841,7 +1867,14 @@ header {
 @media screen and (min-width: 769px), print {
   .three-reasons-section__item {
     padding: 50px 70px;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 0;
   }
+}
+
+.no-bottom-devider {
+  border-bottom: 0;
 }
 
 .three-reasons-section__title {
@@ -2033,6 +2066,7 @@ header {
   flex-direction: column;
   padding: 20px 36px;
   background-color: #fff;
+  align-items: center;
 }
 @media screen and (min-width: 769px), print {
   .sedona-footer {
@@ -2070,15 +2104,15 @@ header {
 }
 
 .created-by {
-  display: none;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 10px;
 }
 @media screen and (min-width: 769px), print {
   .created-by {
-    display: block;
     flex-grow: 1;
     text-align: center;
+    margin-top: 0;
   }
 }
 
@@ -2233,7 +2267,6 @@ header {
   font-size: 1.3125rem;
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .medium-text--mod {

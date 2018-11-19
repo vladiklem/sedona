@@ -2,27 +2,45 @@
 
 .features-list{
   padding: 14px 0;
-  
   @include tablet {
     display: flex;
   }
 }
 
 .features-list__item{
-  padding: 31px 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  padding: 20px;
+  justify-content: center;
   color: black;
   @include tablet{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     padding: 61px 50px;
+    text-align: center;
+  }
+}
+
+.features-list__img{
+  height: 34px;
+  @include tablet{
+    height: auto;
+  }
+}
+
+.features-list__description-wrapper{
+  flex-basis: 75%;
+  margin-left: 10px;
+  @include tablet{
+    flex-basis: auto;
+    margin-left: 0;
   }
 }
 
 .features-list__title{
+  margin-top: 6px;
+  margin-bottom: 10px;
   @include tablet{
     margin: 33px 0;
   }
-  margin: 16px 0;
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css" />
+  <title>Выбор отелей в Седоне!</title>
+</head>
+<body>
+  <header class="main-menu">
+    <nav>
+      <a class="main-menu__logo" href="#">
+        <img width="138" height="70" src="./images/logo.png" alt="Logo City of Sedona" />
+      </a>
+      <ul class="main-menu__list">
+        <li class="main-menu__item main-menu__item--1"><a class="main-menu__link" href="#">информация</a></li>
+        <li class="main-menu__item main-menu__item--2"><a class="main-menu__link" href="#">фото и видео</a></li>
+        <li class="main-menu__item main-menu__item--3"><a class="main-menu__link" href="#">карта штата</a></li>
+        <li class="main-menu__item main-menu__item--4"><a class="main-menu__link" href="#">гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <img src="./images/red-rocks.jpg" alt="Red rocks near Sedona" />
+      <form>
+        <div>
+          <p>инфраструктура:</p>
+          <input type="checkbox" id="infrastructure-pool"/><label for="infrastructure-pool">бассейн</label>
+          <input type="checkbox" id="infrastructure-parking"/><label for="infrastructure-parking">парковка</label>
+          <input type="checkbox" id="infrastructure-wifi"/><label for="infrastructure-wifi">wi-fi</label>
+        </div>
+        <div>
+          <p>тип жилья:</p>
+          <input type="checkbox" id="type-hotel"/><label for="type-hotel">бассейн</label>
+          <input type="checkbox" id="type-parking"/><label for="type-parking">парковка</label>
+          <input type="checkbox" id="type-wifi"/><label for="type-wifi">wi-fi</label>
+        </div>
+        <div>
+          <p>стоимость в сутки (Р):</p>
+          <div>
+            <span>от 0</span>
+            <span>до 3000</span>
+          </div>
+          <div></div>
+          <button>показать</button>
+        </div>
+      </form>
+    </section>
+    <section>
+      <h1>найдено: 3</h1>
+      <p>сортировка:</p>
+      <span>по цене</span>
+      <span>по типу</span>
+      <span>по рейтингу</span>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
