@@ -11,8 +11,12 @@
 @import "components/features-list";
 @import "components/three-reasons-section";
 @import "components/sedona-description";
+@import "components/order-hotel-section";
+@import "components/sedona-footer";
 
 @import "elements/one-reason-container";
+@import "elements/counter-wrapper";
+@import "elements/search-button";
 
 @media (min-width: 1201px){
   body{
@@ -22,8 +26,37 @@
   }
 }
 
-//devils bridge section
-
 .reversed-row{
   flex-direction: row-reverse;
+}
+
+.large-text--mod{
+  font-size: $typography-h2;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.medium-text--mod{
+  font-size: $typography-text-small;
+  text-transform: uppercase;
+}
+
+.ml-17{
+  margin-left: 17px;
+}
+
+.ml-21{
+  margin-left: 21px;
+}
+
+.ml-34{
+  margin-left: 34px;
+}
+
+.ml-62{
+  margin-left: 62px;
+  @include tablet{
+    margin-left: 31px;
+  }
 }

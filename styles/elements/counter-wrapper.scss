@@ -1,0 +1,29 @@
+.counter-wrapper{
+  display: inline-flex ;
+  height: 38px;
+  flex-grow: 1;
+  @include tablet{
+    flex-grow: 0;
+  }
+}
+
+.counter-wrapper__input{
+  width: 38px;
+  background-color: $color-form-control;
+  border: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  flex-grow: 1;
+  @include tablet{
+    flex-grow: 0;
+  }
+}
+
+.counter-wrapper__button{
+  background-color: $color-form-control;
+  width: 38px;
+  border: 0;
+  font-weight: bold;
+  color: $color-form-icon;
+}

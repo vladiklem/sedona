@@ -1,0 +1,45 @@
+.sedona-footer{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 36px;
+  background-color: #fff;
+  @include tablet{
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.visit-sedona{
+  color: #000;
+  @include tablet{
+    flex-grow: 1;
+  }
+}
+
+.sedona-footer__social-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  @include tablet{
+    flex-grow: 1;
+  }
+}
+
+.sedona-footer__item{
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: $color-primary;
+  margin-left: 5px;
+}
+
+.created-by{
+  display: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  @include tablet{
+    display: block;
+    flex-grow: 1;
+    text-align: center;
+  }
+}
