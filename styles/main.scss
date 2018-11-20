@@ -18,6 +18,10 @@
 @import "elements/counter-wrapper";
 @import "elements/search-button";
 
+html{
+  background-color: $color-app-background;
+}
+
 @media (min-width: 1201px){
   body{
     max-width: 1200px;
@@ -30,13 +34,13 @@
   flex-direction: row-reverse;
 }
 
-.large-text--mod{
+.large-text{
   font-size: $typography-h2;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.medium-text--mod{
+.medium-text{
   font-size: $typography-text-small;
   text-transform: uppercase;
 }

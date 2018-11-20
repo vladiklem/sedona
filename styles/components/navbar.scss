@@ -27,8 +27,8 @@ header{
 }
 
 .main-menu__item{
-  flex-basis: 152px;
-  padding: 16.8px 0;
+//  padding: 16.8px 0;
+  display: flex;
 }
 
 .main-menu__link{
@@ -36,25 +36,30 @@ header{
   color: black;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 16.8px 8px;
 }
 
 .main-menu__item--1{
-  text-align: left;
+//  text-align: left;
+  justify-content: flex-start;
   flex-basis: 22.6%;
 }
 
 .main-menu__item--2{
-  text-align: left;
+//  text-align: left;
+  justify-content: flex-start;
   flex-basis: 27.4%;
 }
 
 .main-menu__item--3{
-  text-align: right;
+//  text-align: right;
+  justify-content: flex-end;
   flex-basis: 27.4%;
 }
 
 .main-menu__item--4{
-  text-align: right;
+//  text-align: right;
+  justify-content: flex-end;
   flex-basis: 22.6%;
 }
 

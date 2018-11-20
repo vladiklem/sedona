@@ -1659,8 +1659,7 @@ header {
 }
 
 .main-menu__item {
-  flex-basis: 152px;
-  padding: 16.8px 0;
+  display: flex;
 }
 
 .main-menu__link {
@@ -1668,25 +1667,26 @@ header {
   color: black;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 16.8px 8px;
 }
 
 .main-menu__item--1 {
-  text-align: left;
+  justify-content: flex-start;
   flex-basis: 22.6%;
 }
 
 .main-menu__item--2 {
-  text-align: left;
+  justify-content: flex-start;
   flex-basis: 27.4%;
 }
 
 .main-menu__item--3 {
-  text-align: right;
+  justify-content: flex-end;
   flex-basis: 27.4%;
 }
 
 .main-menu__item--4 {
-  text-align: right;
+  justify-content: flex-end;
   flex-basis: 22.6%;
 }
 
@@ -1767,6 +1767,7 @@ header {
 
 .features-list {
   padding: 14px 0;
+  background-color: #fff;
 }
 @media screen and (min-width: 769px), print {
   .features-list {
@@ -1931,6 +1932,10 @@ header {
     max-width: 568px;
     margin: 0 auto;
   }
+}
+
+.order-hotel-section__search-title-wrapper {
+  background-color: #fff;
 }
 
 .appartments-search {
@@ -2252,6 +2257,10 @@ header {
   background-color: #81b3d2;
 }
 
+html {
+  background-color: #eeeeee;
+}
+
 @media (min-width: 1201px) {
   body {
     max-width: 1200px;
@@ -2263,13 +2272,13 @@ header {
   flex-direction: row-reverse;
 }
 
-.large-text--mod {
+.large-text {
   font-size: 1.3125rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.medium-text--mod {
+.medium-text {
   font-size: 0.875rem;
   text-transform: uppercase;
 }
