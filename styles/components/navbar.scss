@@ -8,6 +8,7 @@ header{
   position: absolute;
   left: calc(50% - 69px);
   top:0;
+  z-index: 1;
 }
 
 .main-menu__list{
@@ -27,8 +28,8 @@ header{
 }
 
 .main-menu__item{
-//  padding: 16.8px 0;
   display: flex;
+  width: 100%;
 }
 
 .main-menu__link{
@@ -37,30 +38,43 @@ header{
   font-weight: bold;
   text-transform: uppercase;
   padding: 16.8px 8px;
+  flex-basis: 100%;
+  text-align: center;
+  @include tablet{
+    flex-basis: auto;
+  }
 }
 
 .main-menu__item--1{
-//  text-align: left;
-  justify-content: flex-start;
-  flex-basis: 22.6%;
+  justify-content: center;
+  @include tablet{
+    justify-content: flex-start;
+    flex-basis: 22.6%;
+  }
 }
 
 .main-menu__item--2{
-//  text-align: left;
-  justify-content: flex-start;
-  flex-basis: 27.4%;
+  justify-content: center;
+  @include tablet{
+    justify-content: flex-start;
+    flex-basis: 27.4%;
+  }
 }
 
 .main-menu__item--3{
-//  text-align: right;
-  justify-content: flex-end;
-  flex-basis: 27.4%;
+  justify-content: center;
+  @include tablet{
+    justify-content: flex-end;
+    flex-basis: 27.4%;
+  }
 }
 
 .main-menu__item--4{
-//  text-align: right;
-  justify-content: flex-end;
-  flex-basis: 22.6%;
+  justify-content: center;
+  @include tablet{
+    justify-content: flex-end;
+    flex-basis: 22.6%;
+  }
 }
 
 @media (max-width:1199px){

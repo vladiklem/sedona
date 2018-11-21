@@ -46,6 +46,7 @@
 }
 
 .one-reason-container__image{
+  display: block;
   @include tablet {
     position: absolute;
     width: auto;

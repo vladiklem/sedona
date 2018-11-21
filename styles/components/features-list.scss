@@ -17,6 +17,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    flex-basis: 33.33%;
     padding: 61px 50px;
     text-align: center;
   }
@@ -24,8 +25,9 @@
 
 .features-list__img{
   height: 34px;
+  width: auto;
   @include tablet{
-    height: auto;
+    height: 70px;
   }
 }
 

@@ -7,6 +7,16 @@
   align-items: center;
   height: 508px;
   padding: 78px;
+}
+
+.intro-section::after{
+  height: 100px;
+  content: "";
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   background-image: url(../images/background-image-bottom-shape.png);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -16,7 +26,7 @@
 .intro-section__background{  
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;

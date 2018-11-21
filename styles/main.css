@@ -1639,6 +1639,7 @@ header {
   position: absolute;
   left: calc(50% - 69px);
   top: 0;
+  z-index: 1;
 }
 
 .main-menu__list {
@@ -1660,6 +1661,7 @@ header {
 
 .main-menu__item {
   display: flex;
+  width: 100%;
 }
 
 .main-menu__link {
@@ -1668,26 +1670,53 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   padding: 16.8px 8px;
+  flex-basis: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 769px), print {
+  .main-menu__link {
+    flex-basis: auto;
+  }
 }
 
 .main-menu__item--1 {
-  justify-content: flex-start;
-  flex-basis: 22.6%;
+  justify-content: center;
+}
+@media screen and (min-width: 769px), print {
+  .main-menu__item--1 {
+    justify-content: flex-start;
+    flex-basis: 22.6%;
+  }
 }
 
 .main-menu__item--2 {
-  justify-content: flex-start;
-  flex-basis: 27.4%;
+  justify-content: center;
+}
+@media screen and (min-width: 769px), print {
+  .main-menu__item--2 {
+    justify-content: flex-start;
+    flex-basis: 27.4%;
+  }
 }
 
 .main-menu__item--3 {
-  justify-content: flex-end;
-  flex-basis: 27.4%;
+  justify-content: center;
+}
+@media screen and (min-width: 769px), print {
+  .main-menu__item--3 {
+    justify-content: flex-end;
+    flex-basis: 27.4%;
+  }
 }
 
 .main-menu__item--4 {
-  justify-content: flex-end;
-  flex-basis: 22.6%;
+  justify-content: center;
+}
+@media screen and (min-width: 769px), print {
+  .main-menu__item--4 {
+    justify-content: flex-end;
+    flex-basis: 22.6%;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -1704,6 +1733,16 @@ header {
   align-items: center;
   height: 508px;
   padding: 78px;
+}
+
+.intro-section::after {
+  height: 100px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   background-image: url(../images/background-image-bottom-shape.png);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -1713,7 +1752,7 @@ header {
 .intro-section__background {
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -1786,6 +1825,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    flex-basis: 33.33%;
     padding: 61px 50px;
     text-align: center;
   }
@@ -1793,10 +1833,11 @@ header {
 
 .features-list__img {
   height: 34px;
+  width: auto;
 }
 @media screen and (min-width: 769px), print {
   .features-list__img {
-    height: auto;
+    height: 70px;
   }
 }
 
@@ -1884,9 +1925,6 @@ header {
 
 .sedona-description {
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   padding: 0 10px;
 }
@@ -1895,10 +1933,12 @@ header {
   max-width: 500px;
   padding-top: 2.9em;
   color: #000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sedona-description__reasons {
-  padding-top: 2.5em;
+  margin-top: 2.5em;
   padding-bottom: 4em;
 }
 
@@ -2191,6 +2231,9 @@ header {
   }
 }
 
+.one-reason-container__image {
+  display: block;
+}
 @media screen and (min-width: 769px), print {
   .one-reason-container__image {
     position: absolute;
@@ -2268,6 +2311,14 @@ html {
     box-shadow: 0px 0px 19px 11px #bfbfbf;
   }
 }
+.position-relative {
+  position: relative;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
 .reversed-row {
   flex-direction: row-reverse;
 }
