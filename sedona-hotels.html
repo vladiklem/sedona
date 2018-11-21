@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,16 +27,16 @@
       <img src="./images/red-rocks.jpg" alt="Red rocks near Sedona" />
       <form>
         <fieldset>
-          <legend>инфраструктура:</legend>
-          <input type="checkbox" id="infrastructure-pool"/><label for="infrastructure-pool">бассейн</label><br>
-          <input type="checkbox" id="infrastructure-parking"/><label for="infrastructure-parking">парковка</label><br>
-          <input type="checkbox" id="infrastructure-wifi"/><label for="infrastructure-wifi">wi-fi</label><br>
+          <legend>Инфраструктура:</legend>
+          <input type="checkbox" id="infrastructure-pool" name="infrastructure" value="swimming-pool"/><label for="infrastructure-pool">Бассейн</label><br>
+          <input type="checkbox" id="infrastructure-parking" name="infrastructure" value="parking"/><label for="infrastructure-parking">Парковка</label><br>
+          <input type="checkbox" id="infrastructure-wifi" name="infrastructure" value="wi=fi"/><label for="infrastructure-wifi">Wi-Fi</label><br>
         </fieldset>
         <fieldset>
           <legend>тип жилья:</legend>
-          <input type="checkbox" id="type-hotel"/><label for="type-hotel">бассейн</label><br>
-          <input type="checkbox" id="type-parking"/><label for="type-parking">парковка</label><br>
-          <input type="checkbox" id="type-wifi"/><label for="type-wifi">wi-fi</label><br>
+          <input type="checkbox" id="type-hotel" name="house-type"/><label for="type-hotel">Отель</label><br>
+          <input type="checkbox" id="type-motel" name="house-type"/><label for="type-motel">Мотель</label><br>
+          <input type="checkbox" id="type-apartments" name="house-type"/><label for="type-apartments">Апартаменты</label><br>
         </fieldset>
         <fieldset>
           <legend>стоимость в сутки (Р):</legend>
@@ -50,7 +50,8 @@
       </form>
     </section>
     <section>
-      <h2>найдено: 3</h2>
+      <h2>найдено:</h2>
+      <span>3</span>
       <p>сортировка:</p>
       <ul>
         <li>по цене</li>
@@ -58,15 +59,15 @@
         <li>по рейтингу</li>
       </ul>
       <div>
-        <img src="icons/arrow-up.svg" alt="Arrow up icon">
-        <img src="icons/arrow-down.svg" alt="Arrow down icon">
+        <button aria-label="Order the most expensive to the cheapest"><img src="icons/arrow-up.svg" alt="Arrow up icon"></button>
+        <button aria-label="Order from the cheapest to the most expensive"><img src="icons/arrow-down.svg" alt="Arrow down icon"></button>
       </div>
     </section>
     <section>
       <h2>Найденные гостиницы в Седоне</h2>
       <ul>
         <li>
-          <img>
+          <img src="images/amara-hotel.jpg" alt="Amara picture">
           <div>
             <h3>amara resort and spa</h3>
             <p>
@@ -74,12 +75,12 @@
               <span>от 4000 Р.</span>
             </p>
             <p>
-              <button>подробнее</button>
-              <button>забронировать</button>
+              <a href="#">подробнее</a>
+              <a href="#">забронировать</a>
             </p>
           </div>
           <div>
-            <span>
+            <span aria-label="Рейтинг отеля 4 звезды">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
@@ -89,7 +90,7 @@
           </div>
         </li>
         <li>
-          <img>
+          <img src="images/desert-motel.jpg" alt="Desert picture">
           <div>
             <h3>desert quail inn</h3>
             <p>
@@ -97,12 +98,12 @@
               <span>от 3000 Р.</span>
             </p>
             <p>
-              <button>подробнее</button>
-              <button>забронировать</button>
+              <a href="#">подробнее</a>
+              <a href="#">забронировать</a>
             </p>
           </div>
           <div>
-            <span>
+            <span aria-label="Рейтинг отеля 3 звезды">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
@@ -111,7 +112,7 @@
           </div>
         </li>
         <li>
-          <img>
+          <img src="images/villas-apartment.jpg" alt="Villas picture">
           <div>
             <h3>villa at poco diablo</h3>
             <p>
@@ -119,12 +120,12 @@
               <span>от 2000 Р.</span>
             </p>
             <p>
-              <button>подробнее</button>
-              <button>забронировать</button>
+              <a href="#">подробнее</a>
+              <a href="#">забронировать</a>
             </p>
           </div>
           <div>
-            <span>
+            <span aria-label="Рейтинг отеля 2 звезды">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
             </span>
@@ -140,9 +141,9 @@
         </p>
 
         <ul class="sedona-footer__social-list">
-            <li class="sedona-footer__item"><a href="#"><img src="icons/twitter.svg" alt="Twitter Logo"></a></li>
-            <li class="sedona-footer__item"><a href="#"><img src="icons/facebook.svg" alt="Facebook Logo"></a></li>
-            <li class="sedona-footer__item"><a href="#"><img src="icons/youtube.svg" alt="YouTube Logo"></a></li>
+            <li class="sedona-footer__item"><a href="#" aria-label="twitter"><img src="icons/twitter.svg" alt="Twitter Logo"></a></li>
+            <li class="sedona-footer__item"><a href="#" aria-label="facebook"><img src="icons/facebook.svg" alt="Facebook Logo"></a></li>
+            <li class="sedona-footer__item"><a href="#" aria-label="youtube"><img src="icons/youtube.svg" alt="YouTube Logo"></a></li>
         </ul>
 
         <p class="created-by">
