@@ -2161,6 +2161,96 @@ header {
   }
 }
 
+.filter-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+}
+@media screen and (min-width: 769px), print {
+  .filter-menu {
+    flex-direction: row;
+    padding: 33px 46px;
+  }
+}
+
+.filter-menu__name {
+  font-size: 1.3125rem;
+  margin: 32px 0;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+@media screen and (min-width: 769px), print {
+  .filter-menu__name {
+    margin: 0;
+    margin-right: 50px;
+  }
+}
+
+.sort-options {
+  border: 0;
+  margin-bottom: 31px;
+}
+@media screen and (min-width: 769px), print {
+  .sort-options {
+    margin: 0;
+  }
+}
+
+.sort-options__name {
+  font-size: 0.75rem;
+  color: #000;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 769px), print {
+  .sort-options__name {
+    margin-right: 5px;
+  }
+}
+
+.sort-options__label {
+  font-size: 0.75rem;
+  color: #b1b1b1;
+  text-transform: uppercase;
+  margin: 5px 10px;
+  border-bottom: 1px dotted #81b3d2;
+}
+@media screen and (min-width: 769px), print {
+  .sort-options__label {
+    margin: 5px 16px;
+  }
+}
+
+.sort-options__input {
+  display: none;
+}
+
+.sort-options__input:checked + .sort-options__label {
+  color: #81b3d2;
+  border-bottom: 0;
+}
+
+.show-options {
+  border: 0;
+  padding-bottom: 15px;
+}
+@media screen and (min-width: 769px), print {
+  .show-options {
+    padding-bottom: 0;
+    margin-left: auto;
+  }
+}
+
+.show-options__input {
+  display: none;
+}
+
+.show-options__input:checked + .svg .show-options__img {
+  fill: #81b3d2;
+}
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -2311,6 +2401,14 @@ html {
     box-shadow: 0px 0px 19px 11px #bfbfbf;
   }
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
 .position-relative {
   position: relative;
 }
