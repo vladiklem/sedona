@@ -22,30 +22,56 @@
   </header>
   <main>
     <h1 class="visually-hidden">Поиск гостиниц в Седоне</h1>
-    <section>
-      <h2>Форма для выбора гостиниц в Седоне</h2>
-      <img src="./images/red-rocks.jpg" alt="Red rocks near Sedona" />
-      <form id="search-form">
-        <fieldset>
-          <legend>Инфраструктура:</legend>
-          <input type="checkbox" id="infrastructure-pool" name="infrastructure" value="swimming-pool"/><label for="infrastructure-pool">Бассейн</label><br>
-          <input type="checkbox" id="infrastructure-parking" name="infrastructure" value="parking"/><label for="infrastructure-parking">Парковка</label><br>
-          <input type="checkbox" id="infrastructure-wifi" name="infrastructure" value="wi-fi"/><label for="infrastructure-wifi">Wi-Fi</label><br>
+    <section class="search-form-container position-relative">
+      <h2 class="visually-hidden">Форма для выбора гостиниц в Седоне</h2>
+      <img class="search-form-container__background" src="./images/blured-red-rocks.jpg" alt="Red rocks near Sedona" />
+      <form id="search-form" class="search-form-container__selection-fields">
+        <div class="search-form-container__checkboxes">
+          <fieldset class="search-form-container__infrastructure fieldset-wrapper">
+            <legend class="fieldset-wrapper__name">Инфраструктура:</legend>
+            <label class="fieldset-wrapper__checkbox-wrapper checkbox-wrapper" for="infrastructure-pool">
+              Бассейн
+              <input class="checkbox-wrapper__input" type="checkbox" id="infrastructure-pool" name="infrastructure" value="swimming-pool"/>
+              <span class="checkbox-wrapper__checkmark"></span>
+            </label>
+            <label class="fieldset-wrapper__checkbox-wrapper checkbox-wrapper" for="infrastructure-parking">
+              Парковка
+              <input class="checkbox-wrapper__input" type="checkbox" id="infrastructure-parking" name="infrastructure" value="parking"/>
+              <span class="checkbox-wrapper__checkmark"></span>
+            </label>
+            <label class="fieldset-wrapper__checkbox-wrapper checkbox-wrapper" for="infrastructure-wifi">
+              Wi-Fi
+              <input class="checkbox-wrapper__input" type="checkbox" id="infrastructure-wifi" name="infrastructure" value="wi-fi"/>
+              <span class="checkbox-wrapper__checkmark"></span>
+            </label>
         </fieldset>
-        <fieldset>
-          <legend>тип жилья:</legend>
-          <input type="checkbox" id="type-hotel" name="house-type" value="hotel"/><label for="type-hotel">Отель</label><br>
-          <input type="checkbox" id="type-motel" name="house-type" value="motel"/><label for="type-motel">Мотель</label><br>
-          <input type="checkbox" id="type-apartments" name="house-type" value="apartments"/><label for="type-apartments">Апартаменты</label><br>
+        <fieldset class="search-form-container__house-type fieldset-wrapper">
+          <legend class="fieldset-wrapper__name">тип жилья:</legend>
+          <label class="fieldset-wrapper__checkbox-wrapper checkbox-wrapper" for="type-hotel">
+            Отель
+            <input class="checkbox-wrapper__input" type="checkbox" id="type-hotel" name="house-type" value="hotel"/>
+            <span class="checkbox-wrapper__checkmark"></span>
+          </label>
+          <label class="fieldset-wrapper__checkbox-wrapper checkbox-wrapper" for="type-motel">
+            Мотель
+            <input class="checkbox-wrapper__input" type="checkbox" id="type-motel" name="house-type" value="motel"/>
+            <span class="checkbox-wrapper__checkmark"></span>
+          </label>
+          <label class="fieldset-wrapper__checkbox-wrapper checkbox-wrapper" for="type-apartments">
+            Апартаменты
+            <input class="checkbox-wrapper__input" type="checkbox" id="type-apartments" name="house-type" value="apartments"/>
+            <span class="checkbox-wrapper__checkmark"></span>
+          </label>
         </fieldset>
-        <fieldset>
-          <legend>стоимость в сутки (Р):</legend>
-          <div>
-            <span>от 0</span>
-            <span>до 3000</span>
+        </div>
+        <fieldset class="search-form-container__day-price fieldset-wrapper">
+          <legend class="fieldset-wrapper__name">стоимость в сутки (Р):</legend>
+          <div class="fieldset-wrapper__range-borders">
+            <span class="fieldset-wrapper__left-border">от 0</span>
+            <span class="fieldset-wrapper__right-border">до 3000</span>
           </div>
-          <input type="range"/>
-          <button>показать</button>
+          <input  class="fieldset-wrapper__range-line" type="range"/>
+          <button class="fieldset-wrapper__show-button">показать</button>
         </fieldset>
       </form>
     </section>

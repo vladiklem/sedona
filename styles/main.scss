@@ -13,10 +13,12 @@
 @import "components/sedona-description";
 @import "components/order-hotel-section";
 @import "components/sedona-footer";
+@import "components/search-form-container";
 
 @import "elements/one-reason-container";
 @import "elements/counter-wrapper";
 @import "elements/search-button";
+@import "elements/checkbox-wrapper";
 
 html{
   background-color: $color-app-background;
