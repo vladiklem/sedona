@@ -1,10 +1,10 @@
- ###
- # General
- .DS_Store
- .AppleDouble
- .LSOverride
+###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
- # Editors
- .idea
+# Editors
+.idea/
 
- *.css.map
+*.css.map
