@@ -5,6 +5,6 @@
  .LSOverride
 
  # Editors
- .idea/
+ .idea
 
  *.css.map
