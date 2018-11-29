@@ -54,6 +54,12 @@
   }
 }
 
+@media (max-width: 350px){
+  .sort-options__label{
+    margin: 5px 5px;
+  }
+}
+
 .sort-options__input{
   display: none;
 }
