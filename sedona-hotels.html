@@ -63,73 +63,79 @@
         <input type="radio" id="arrow-down" name="arrow-down"/><label for="arrow-down"><img src="icons/arrow-down.svg" alt="Arrow down icon"></label>
       </fieldset>
     </section>
-    <section>
-      <h2>Найденные гостиницы в Седоне</h2>
-      <ul>
-        <li>
-          <img src="images/amara-hotel.jpg" alt="Amara picture">
-          <div>
-            <h3>amara resort and spa</h3>
-            <p>
-              <span>гостиница</span>
-              <span>от 4000 Р.</span>
+    <section class="search-results">
+      <h2 class="visually-hidden">Найденные гостиницы в Седоне</h2>
+      <ul class="search-results__list">
+        <li class="search-results__item result-list-item">
+          <div class="result-list-item__img-wrapper">
+            <img class="result-list-item__img" src="images/amara-hotel.jpg" alt="Amara picture">
+          </div>
+          <div class="result-list-item__description">
+            <h3 class="result-list-item__name">amara resort and spa</h3>
+            <p class="result-list-item__type-price">
+              <span class="result-list-item__type">гостиница</span>
+              <span class="result-list-item__price">от 4000 Р.</span>
             </p>
-            <p>
-              <a href="#">подробнее</a>
-              <a href="#">забронировать</a>
+            <p class="result-list-item__buttons">
+              <a class="button button--about" href="#">подробнее</a>
+              <a class="button button--order" href="#">забронировать</a>
             </p>
           </div>
-          <div>
-            <span aria-label="Рейтинг отеля 4 звезды">
+          <div class="result-list-item__rating-wrapper">
+            <span class="result-list-item__stars-rating" aria-label="Рейтинг отеля 4 звезды">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
             </span>
-            <p>рейтинг: 8,5</p>
+            <p class="result-list-item__rating">рейтинг: <span>8,5</span></p>
           </div>
         </li>
-        <li>
-          <img src="images/desert-motel.jpg" alt="Desert picture">
-          <div>
-            <h3>desert quail inn</h3>
-            <p>
-              <span>мотель</span>
-              <span>от 3000 Р.</span>
+        <li class="search-results__item result-list-item">
+          <div class="result-list-item__img-wrapper">
+            <img class="result-list-item__img" src="images/desert-motel.jpg" alt="Amara picture">
+          </div>
+          <div class="result-list-item__description">
+            <h3 class="result-list-item__name">desert quail inn</h3>
+            <p class="result-list-item__type-price">
+              <span class="result-list-item__type">мотель</span>
+              <span class="result-list-item__price">от 3000 Р.</span>
             </p>
-            <p>
-              <a href="#">подробнее</a>
-              <a href="#">забронировать</a>
+            <p class="result-list-item__buttons">
+              <a class="button button--about" href="#">подробнее</a>
+              <a class="button button--order" href="#">забронировать</a>
             </p>
           </div>
-          <div>
-            <span aria-label="Рейтинг отеля 3 звезды">
+          <div class="result-list-item__rating-wrapper">
+            <span class="result-list-item__stars-rating" aria-label="Рейтинг отеля 3 звезды">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
             </span>
-            <p>рейтинг: 8,9</p>
+            <p class="result-list-item__rating">рейтинг: <span>8,9</span></p>
           </div>
         </li>
-        <li>
-          <img src="images/villas-apartment.jpg" alt="Villas picture">
-          <div>
-            <h3>villa at poco diablo</h3>
-            <p>
-              <span>апартаменты</span>
-              <span>от 2000 Р.</span>
+        <li class="search-results__item result-list-item">
+          <div class="result-list-item__img-wrapper">
+            <img class="result-list-item__img" src="images/villas-apartment.jpg" alt="Amara picture">
+          </div>
+          <div class="result-list-item__description">
+            <h3 class="result-list-item__name">villa at poco diablo</h3>
+            <p class="result-list-item__type-price">
+              <span class="result-list-item__type">апартаменты</span>
+              <span class="result-list-item__price">от 2000 Р.</span>
             </p>
-            <p>
-              <a href="#">подробнее</a>
-              <a href="#">забронировать</a>
+            <p class="result-list-item__buttons">
+              <a class="button button--about" href="#">подробнее</a>
+              <a class="button button--order" href="#">забронировать</a>
             </p>
           </div>
-          <div>
-            <span aria-label="Рейтинг отеля 2 звезды">
+          <div class="result-list-item__rating-wrapper">
+            <span class="result-list-item__stars-rating" aria-label="Рейтинг отеля 2 звезды">
               <img src="icons/form-start.svg" alt="Star icon">
               <img src="icons/form-start.svg" alt="Star icon">
             </span>
-            <p>рейтинг: 9,2</p>
+            <p class="result-list-item__rating">рейтинг: <span>9,2</span></p>
           </div>
         </li>
       </ul>

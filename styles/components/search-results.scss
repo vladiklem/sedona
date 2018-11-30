@@ -1,0 +1,151 @@
+.search-results{
+  padding: 0 15px;
+  background-color: #fff;
+}
+
+.search-results__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.result-list-item{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  border-bottom: 1px solid $color-control-arrow;
+
+  @include tablet{
+    flex-direction: row;
+    padding: 30px 0;
+  }
+
+}
+
+.result-list-item__img-wrapper{
+  display: flex;
+  justify-content: center;
+
+  @include tablet{
+    margin-right: 30px;
+  }
+
+}
+
+.result-list-item__description{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  @include tablet{
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+
+}
+
+.result-list-item__name{
+  font-size: $typography-h2;
+  line-height: $typography-h2;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+
+  @include tablet{
+    margin-bottom: 18px;
+    text-align: left;
+    margin-top: 0;
+  }
+
+}
+
+.result-list-item__type-price{
+  display: flex;
+  font-size: $typography-text-small;
+  line-height: $typography-text-small;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  justify-content: center;
+
+  @include tablet{
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+}
+
+.result-list-item__type{
+  margin-right: 40px;
+}
+
+.result-list-item__buttons{
+  display: flex;
+  justify-content: center;
+
+  @include tablet{
+    justify-content: flex-start;
+  }
+
+}
+
+.button{
+  padding: 3.5px 8px;
+  font-size: $typography-text-small;
+  line-height: $typography-text-small;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+
+  @include tablet{
+    padding: 8px 17px;
+  }
+
+}
+
+.button--about{
+  margin-right: 6px;
+  background-color: $color-primary;
+}
+
+.button--order{
+  background-color: $color-secondary;
+}
+
+.result-list-item__rating-wrapper{
+  display: flex;
+  justify-content: center;
+
+  @include tablet{
+    flex-direction: column;
+  }
+
+}
+
+.result-list-item__stars-rating{
+  margin-right: 40px;
+  height: 18px;
+
+  @include tablet{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+}
+
+.result-list-item__rating{
+  padding: 3px 9.5px;
+  background-color: $color-form-control;
+  color: #000;
+  font-size: $typography-text-small;
+  line-height: $typography-text-small;
+  text-transform: uppercase;
+
+  @include tablet{
+    padding: 5px 15px;
+  }
+
+}

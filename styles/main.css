@@ -608,7 +608,7 @@ table th {
   font-size: 0.75rem !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-size-1-mobile {
     font-size: 3rem !important;
   }
@@ -637,7 +637,7 @@ table th {
     font-size: 0.75rem !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-size-1-tablet {
     font-size: 3rem !important;
   }
@@ -798,17 +798,17 @@ table th {
   text-align: right !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .has-text-centered-mobile {
     text-align: center !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .has-text-centered-tablet {
     text-align: center !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .has-text-centered-tablet-only {
     text-align: center !important;
   }
@@ -843,17 +843,17 @@ table th {
     text-align: center !important;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .has-text-justified-mobile {
     text-align: justify !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .has-text-justified-tablet {
     text-align: justify !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .has-text-justified-tablet-only {
     text-align: justify !important;
   }
@@ -888,17 +888,17 @@ table th {
     text-align: justify !important;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .has-text-left-mobile {
     text-align: left !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .has-text-left-tablet {
     text-align: left !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .has-text-left-tablet-only {
     text-align: left !important;
   }
@@ -933,17 +933,17 @@ table th {
     text-align: left !important;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .has-text-right-mobile {
     text-align: right !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .has-text-right-tablet {
     text-align: right !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .has-text-right-tablet-only {
     text-align: right !important;
   }
@@ -1206,17 +1206,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   display: block !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-block-mobile {
     display: block !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-block-tablet {
     display: block !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .is-block-tablet-only {
     display: block !important;
   }
@@ -1255,17 +1255,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   display: flex !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-flex-mobile {
     display: flex !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-flex-tablet {
     display: flex !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .is-flex-tablet-only {
     display: flex !important;
   }
@@ -1304,17 +1304,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   display: inline !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-inline-mobile {
     display: inline !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-inline-tablet {
     display: inline !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .is-inline-tablet-only {
     display: inline !important;
   }
@@ -1353,17 +1353,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   display: inline-block !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-inline-block-mobile {
     display: inline-block !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-inline-block-tablet {
     display: inline-block !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .is-inline-block-tablet-only {
     display: inline-block !important;
   }
@@ -1402,17 +1402,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   display: inline-flex !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-inline-flex-mobile {
     display: inline-flex !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-inline-flex-tablet {
     display: inline-flex !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .is-inline-flex-tablet-only {
     display: inline-flex !important;
   }
@@ -1462,17 +1462,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   width: 0.01em !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-hidden-mobile {
     display: none !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-hidden-tablet {
     display: none !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .is-hidden-tablet-only {
     display: none !important;
   }
@@ -1511,17 +1511,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   visibility: hidden !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .is-invisible-mobile {
     visibility: hidden !important;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .is-invisible-tablet {
     visibility: hidden !important;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+@media screen and (min-width: 768px) and (max-width: 1087px) {
   .is-invisible-tablet-only {
     visibility: hidden !important;
   }
@@ -1651,7 +1651,7 @@ header {
   padding-top: 80px;
   padding-bottom: 5px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .main-menu__list {
     flex-direction: row;
     padding-top: 0;
@@ -1673,7 +1673,7 @@ header {
   flex-basis: 100%;
   text-align: center;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .main-menu__link {
     flex-basis: auto;
   }
@@ -1682,7 +1682,7 @@ header {
 .main-menu__item--1 {
   justify-content: center;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .main-menu__item--1 {
     justify-content: flex-start;
     flex-basis: 22.6%;
@@ -1692,7 +1692,7 @@ header {
 .main-menu__item--2 {
   justify-content: center;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .main-menu__item--2 {
     justify-content: flex-start;
     flex-basis: 27.4%;
@@ -1702,7 +1702,7 @@ header {
 .main-menu__item--3 {
   justify-content: center;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .main-menu__item--3 {
     justify-content: flex-end;
     flex-basis: 27.4%;
@@ -1712,7 +1712,7 @@ header {
 .main-menu__item--4 {
   justify-content: center;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .main-menu__item--4 {
     justify-content: flex-end;
     flex-basis: 22.6%;
@@ -1808,7 +1808,7 @@ header {
   padding: 14px 0;
   background-color: #fff;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .features-list {
     display: flex;
   }
@@ -1820,7 +1820,7 @@ header {
   justify-content: center;
   color: black;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .features-list__item {
     flex-direction: column;
     align-items: center;
@@ -1835,7 +1835,7 @@ header {
   height: 34px;
   width: auto;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .features-list__img {
     height: 70px;
   }
@@ -1845,7 +1845,7 @@ header {
   flex-basis: 75%;
   margin-left: 10px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .features-list__description-wrapper {
     flex-basis: auto;
     margin-left: 0;
@@ -1856,7 +1856,7 @@ header {
   margin-top: 6px;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .features-list__title {
     margin: 33px 0;
   }
@@ -1890,7 +1890,7 @@ header {
   background-color: #eeeeee;
   padding: 20px 0;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .three-reasons-section {
     display: flex;
   }
@@ -1906,7 +1906,7 @@ header {
   align-items: center;
   text-align: center;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .three-reasons-section__item {
     padding: 50px 70px;
     margin-left: 0;
@@ -1966,7 +1966,7 @@ header {
   text-align: center;
   color: #fff;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .order-hotel-section__title {
     padding: 35px 139px;
     max-width: 568px;
@@ -1983,7 +1983,7 @@ header {
   background-color: #fff;
   border-bottom: 1px solid #e5e5e5;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .appartments-search {
     padding: 55px;
     max-width: 568px;
@@ -1997,7 +1997,7 @@ header {
   align-items: center;
   margin-bottom: 1.25rem;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .appartments-search__arrival-date {
     margin-bottom: 1.8125rem;
   }
@@ -2008,7 +2008,7 @@ header {
   align-items: center;
   margin-bottom: 1.25rem;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .appartments-search__departure-date {
     margin-bottom: 1.8125rem;
   }
@@ -2038,7 +2038,7 @@ header {
   align-items: center;
   margin-bottom: 1.6875rem;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .appartments-search__people-number {
     flex-direction: row;
     margin-bottom: 3.375rem;
@@ -2051,7 +2051,7 @@ header {
   align-items: center;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .appartments-search__people-adults {
     width: 50%;
     margin-bottom: 0;
@@ -2064,7 +2064,7 @@ header {
   align-items: center;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .appartments-search__people-children {
     width: auto;
     margin-bottom: 0;
@@ -2074,7 +2074,7 @@ header {
 .order-hotel-section__background {
   position: relative;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .order-hotel-section__background {
     padding-bottom: 76px;
   }
@@ -2083,7 +2083,7 @@ header {
 .order-hotel-section__image {
   display: none;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .order-hotel-section__image {
     display: block;
     position: absolute;
@@ -2095,7 +2095,7 @@ header {
     height: auto;
   }
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   @supports (object-fit: cover) {
     .order-hotel-section__image {
       object-fit: cover;
@@ -2113,7 +2113,7 @@ header {
   background-color: #fff;
   align-items: center;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .sedona-footer {
     flex-direction: row;
     align-items: center;
@@ -2123,7 +2123,7 @@ header {
 .visit-sedona {
   color: #000;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .visit-sedona {
     flex-grow: 1;
   }
@@ -2134,7 +2134,7 @@ header {
   justify-content: center;
   margin-top: 8px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .sedona-footer__social-list {
     flex-grow: 1;
   }
@@ -2153,11 +2153,163 @@ header {
   font-weight: bold;
   margin-top: 10px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .created-by {
     flex-grow: 1;
     text-align: center;
     margin-top: 0;
+  }
+}
+
+.search-results {
+  padding: 0 15px;
+  background-color: #fff;
+}
+
+.search-results__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  border-bottom: 1px solid #cacaca;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item {
+    flex-direction: row;
+    padding: 30px 0;
+  }
+}
+
+.result-list-item__img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__img-wrapper {
+    margin-right: 30px;
+  }
+}
+
+.result-list-item__description {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__description {
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+}
+
+.result-list-item__name {
+  font-size: 1.3125rem;
+  line-height: 1.3125rem;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__name {
+    margin-bottom: 18px;
+    text-align: left;
+    margin-top: 0;
+  }
+}
+
+.result-list-item__type-price {
+  display: flex;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__type-price {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+}
+
+.result-list-item__type {
+  margin-right: 40px;
+}
+
+.result-list-item__buttons {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__buttons {
+    justify-content: flex-start;
+  }
+}
+
+.button {
+  padding: 3.5px 8px;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px), print {
+  .button {
+    padding: 8px 17px;
+  }
+}
+
+.button--about {
+  margin-right: 6px;
+  background-color: #81b3d2;
+}
+
+.button--order {
+  background-color: #766357;
+}
+
+.result-list-item__rating-wrapper {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__rating-wrapper {
+    flex-direction: column;
+  }
+}
+
+.result-list-item__stars-rating {
+  margin-right: 40px;
+  height: 18px;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__stars-rating {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+.result-list-item__rating {
+  padding: 3px 9.5px;
+  background-color: #f2f2f2;
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px), print {
+  .result-list-item__rating {
+    padding: 5px 15px;
   }
 }
 
@@ -2185,7 +2337,7 @@ header {
   top: 0;
 }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .one-reason-container {
     display: flex;
     width: 100%;
@@ -2204,7 +2356,7 @@ header {
   color: #FFF;
   flex-basis: 33.3%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .one-reason-container__description {
     padding: 46px 41px 43px 38px;
   }
@@ -2217,13 +2369,13 @@ header {
 .one-reason-container__num {
   margin: 20px 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .one-reason-container__num {
     margin: 8px 0;
   }
 }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .one-reason-container__img-wrapper {
     flex-basis: 66.7%;
     position: relative;
@@ -2234,7 +2386,7 @@ header {
 .one-reason-container__image {
   display: block;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .one-reason-container__image {
     position: absolute;
     width: auto;
@@ -2261,7 +2413,7 @@ header {
   height: 38px;
   flex-grow: 1;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .counter-wrapper {
     flex-grow: 0;
   }
@@ -2276,7 +2428,7 @@ header {
   color: #000;
   flex-grow: 1;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .counter-wrapper__input {
     flex-grow: 0;
   }
@@ -2311,6 +2463,14 @@ html {
     box-shadow: 0px 0px 19px 11px #bfbfbf;
   }
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
 .position-relative {
   position: relative;
 }
@@ -2349,7 +2509,7 @@ html {
 .ml-62 {
   margin-left: 62px;
 }
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 768px), print {
   .ml-62 {
     margin-left: 31px;
   }
