@@ -40,12 +40,20 @@ html{
   clip: rect(0 0 0 0);
 }
 
-.position-relative{
+.relative{
   position: relative;
 }
 
 .mt-auto{
   margin-top: auto;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+
+.mb-checkbox {
+  margin-bottom: 23px;
 }
 
 .reversed-row{

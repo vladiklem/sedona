@@ -1,19 +1,17 @@
 @import "../units/typography/utils";
 
-.search-form-container{
-  width: 100%;
+.search-form{
   display: flex;
   position: relative;
   overflow: hidden;
   min-height: 217px;
-  height: auto;
   padding: 15px;
   @include tablet{
     padding: 35px 73px;
   }
 }
 
-.search-form-container__background{
+.search-form__background{
   position: absolute;
   left: 0;
   bottom: 0;
@@ -39,7 +37,7 @@
 
 }
 
-.search-form-container__selection-fields{
+.search-form__selection-fields{
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -51,7 +49,7 @@
 
 }
 
-.search-form-container__checkboxes{
+.search-form__checkboxes{
   display: flex;
   text-transform: uppercase;
   @include tablet{
@@ -60,15 +58,11 @@
   }
 }
 
-.search-form-container__infrastructure{
+.search-form__infrastructure{
   flex-basis: 50%;
 }
 
-.fieldset-wrapper__checkbox-wrapper{
-  margin-bottom: 23px;
-}
-
-.search-form-container__house-type{
+.search-form__house-type{
   flex-basis: 50%;
 }
 
@@ -78,34 +72,36 @@
 }
 
 .fieldset-wrapper__name{
-  margin-bottom: 14px;
+  margin-bottom: 28px;
   font-weight: bold;
   font-size: $typography-text-medium;
   text-transform: uppercase;
 }
 
-.search-form-container__checkbox-value{
+.search-form__checkbox-value{
   padding-right: 14px;
 }
 
-.search-form-container__day-price{
-
+.search-form__day-price{
   display: flex;
   flex-direction: column;
-  width: 224px;
+  width: 100%;
+  max-width: 320px;
   margin: 0 auto;
-
-  @include desktop{
-    width: 320px;
+  @include tablet{
+    max-width: 225px;
   }
-
+  @include desktop{
+    max-width: 320px;
+  }
 }
 
 .fieldset-wrapper__range-borders{
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 3px;
   display: flex;
-  margin-bottom: 13px;
+  margin-bottom: 22px;
+  text-transform: uppercase;
 }
 
 .fieldset-wrapper__left-border{
@@ -113,33 +109,38 @@
   flex-basis: 50%;
   justify-content: center;
   border-right: 2px solid white;
-  padding: 2px 0;
-  margin: 9px 0;
+  padding: 3px 0;
+  margin: 7px 0;
+  font-size: $typography-text-small;
+  line-height: $typography-text-small;
 }
 
 .fieldset-wrapper__right-border{
   display: flex;
   flex-basis: 50%;
   justify-content: center;
-  padding: 2px 0;
-  margin: 9px 0;
+  padding: 3px 0;
+  margin: 7px 0;
+  font-size: $typography-text-small;
+  line-height: $typography-text-small;
 }
 
 .fieldset-wrapper__range-line{
   display: block;
   width: 100%;
-  margin-bottom: 23px;
+  //margin-bottom: 34px;
+  margin-bottom: 27px;
 }
 
 .fieldset-wrapper__show-button{
   display: block;
   background-color: transparent;
-  padding: 10px 20px;
+  padding: 11px 33px;
   border: 2px solid white;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 0 auto;
 }
 
