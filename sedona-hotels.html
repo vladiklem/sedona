@@ -50,22 +50,25 @@
       </form>
     </section>
     <section class="filter-menu">
-      <h2 class="filter-menu__name">найдено:<span>3</span></h2>
-      <fieldset class="sort-options" form="search-form">
+      <h2 class="filter-menu__name">Найдено: <span>3</span></h2>
+      <fieldset class="sort-options filter-menu__sort-options" form="search-form">
         <span class="sort-options__name">сортировка: </span>
-        <span class="sort-options__criterion">
-          <input class="sort-options__input" type="radio" id="sort-price" name="sort" checked/><label class="sort-options__label" for="sort-price">по цене</label>
-        </span>
-        <span class="sort-options__criterion">
-          <input class="sort-options__input" type="radio" id="sort-type" name="sort"/><label class="sort-options__label" for="sort-type">по типу</label>
-        </span>
-        <span class="sort-options__criterion">
-          <input class="sort-options__input" type="radio" id="sort-rating" name="sort"/><label class="sort-options__label" for="sort-rating">по рейтингу</label>
-        </span>
+        <label class="sort-options__criterion">
+          <input class="sort-options__input" type="radio" name="sort" value="price" checked/>
+          <span class="sort-options__label">по цене</span>
+        </label>
+        <label class="sort-options__criterion">
+          <input class="sort-options__input" type="radio" name="sort" value="type"/>
+          <span class="sort-options__label">по типу</span>
+        </label>
+        <label class="sort-options__criterion">
+          <input class="sort-options__input" type="radio" name="sort" value="rating"/>
+          <span class="sort-options__label">по рейтингу</span>
+        </label>
       </fieldset>
       <fieldset class="show-options" form="search-form">
-        <label for="arrow-up"><input class="show-options__input" type="radio" id="arrow-up" name="show-options"/><svg class="svg" xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path class="show-options__img" fill="#cacaca" d="M5.5 0L0 10h11z"/></svg></label>
-        <label for="arrow-down"><input class="show-options__input" type="radio" id="arrow-down" name="show-options" checked/><svg class="svg" xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path class="show-options__img" fill="#cacaca" d="M5.5 10L0 0h11"/></svg></label>
+        <label for="arrow-up" class="mr-12px"><input class="show-options__input" type="radio" id="arrow-up" name="show-options" value="ascending" /><svg class="svg" width="11" height="10"><path class="show-options__img" fill="#cacaca" d="M5.5 0L0 10h11z"/></svg></label>
+        <label for="arrow-down"><input class="show-options__input" type="radio" id="arrow-down" name="show-options" value="descending" checked/><svg class="svg" width="11" height="10"><path class="show-options__img" fill="#cacaca" d="M5.5 10L0 0h11"/></svg></label>
       </fieldset>
     </section>
     <section>

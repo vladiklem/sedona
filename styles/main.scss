@@ -1,3 +1,5 @@
+$tablet: 768px;
+
 @import "vendors/normalize";
 @import "vendors/bulma/sass/utilities/all";
 @import "vendors/bulma/sass/base/all";
@@ -45,6 +47,10 @@ html{
 
 .mt-auto{
   margin-top: auto;
+}
+
+.mr-12px{
+  margin-right: 12px;
 }
 
 .reversed-row{
