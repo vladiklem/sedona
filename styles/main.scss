@@ -17,11 +17,13 @@ $tablet: 768px;
 @import "components/sedona-footer";
 @import "components/search-form-container";
 @import "components/filter-menu";
+@import "components/search-results";
 
 @import "elements/one-reason-container";
 @import "elements/counter-wrapper";
 @import "elements/search-button";
 @import "elements/checkbox-wrapper";
+@import "elements/button";
 
 html{
   background-color: $color-app-background;

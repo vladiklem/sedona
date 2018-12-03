@@ -1,0 +1,139 @@
+.search-results{
+  padding: 0 15px;
+  background-color: #fff;
+}
+
+.search-results__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.result-list-item{
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid $color-control-arrow;
+
+  @include mobile{
+    flex-direction: column;
+  }
+
+  @include tablet{
+    padding: 30px 0;
+  }
+
+}
+
+.result-list-item__img-wrapper{
+  display: flex;
+  justify-content: center;
+
+  @include tablet{
+    margin-right: 30px;
+  }
+
+}
+
+.result-list-item__description{
+  display: flex;
+  flex-direction: column;
+
+  @include mobile{
+    margin-bottom: 10px;
+  }
+
+  @include tablet{
+    flex-grow: 1;
+  }
+
+}
+
+.result-list-item__name{
+  font-size: $typography-h2;
+  line-height: $typography-h2 - 0.3rem;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  @include mobile{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  @include tablet{
+    margin-bottom: 18px;
+  }
+
+}
+
+.result-list-item__type-price{
+  display: flex;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  @include mobile{
+    justify-content: center;
+  }
+
+  @include tablet{
+    margin-bottom: 20px;
+  }
+
+}
+
+.result-list-item__type{
+  font-size: $typography-text-small;
+  line-height: $typography-text-small - 0.1rem;
+  margin-right: 40px;
+}
+
+.result-list-item__price{
+  font-size: $typography-text-small;
+  line-height: $typography-text-small;
+}
+
+.result-list-item__buttons{
+  display: flex;
+
+  @include mobile{
+    justify-content: center;
+  }
+
+}
+
+.result-list-item__rating-wrapper{
+  display: flex;
+  justify-content: center;
+
+  @include tablet{
+    flex-direction: column;
+  }
+
+}
+
+.result-list-item__stars-rating{
+  margin-right: 40px;
+  height: 18px;
+
+  @include tablet{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+}
+
+.result-list-item__rating{
+  padding: 3px 9.5px;
+  background-color: $color-form-control;
+  color: $color-button-text;
+  font-size: $typography-text-small;
+  line-height: $typography-text-small;
+  text-transform: uppercase;
+
+  @include tablet{
+    padding: 5px 15px;
+  }
+
+}
