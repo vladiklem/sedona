@@ -1,0 +1,22 @@
+.button{
+  padding: 3.5px 8px;
+  font-size: $typography-text-small;
+  line-height: $typography-text-small - 0.1rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+
+  @include tablet{
+    padding: 7.3px 17px;
+  }
+
+}
+
+.button--about{
+  margin-right: 6px;
+  background-color: $color-primary;
+}
+
+.button--order{
+  background-color: $color-secondary;
+}

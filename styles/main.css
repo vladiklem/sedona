@@ -2173,13 +2173,16 @@ header {
 
 .result-list-item {
   display: flex;
-  flex-direction: column;
   padding: 15px 0;
   border-bottom: 1px solid #cacaca;
 }
+@media screen and (max-width: 767px) {
+  .result-list-item {
+    flex-direction: column;
+  }
+}
 @media screen and (min-width: 768px), print {
   .result-list-item {
-    flex-direction: row;
     padding: 30px 0;
   }
 }
@@ -2197,84 +2200,73 @@ header {
 .result-list-item__description {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .result-list-item__description {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 768px), print {
   .result-list-item__description {
     flex-grow: 1;
-    margin-bottom: 0;
   }
 }
 
 .result-list-item__name {
   font-size: 1.3125rem;
-  line-height: 1.3125rem;
+  line-height: 1.0125rem;
   font-weight: bold;
   color: #000;
   text-transform: uppercase;
   margin-bottom: 10px;
-  text-align: center;
-  margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+  .result-list-item__name {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
 @media screen and (min-width: 768px), print {
   .result-list-item__name {
     margin-bottom: 18px;
-    text-align: left;
-    margin-top: 0;
   }
 }
 
 .result-list-item__type-price {
   display: flex;
-  font-size: 0.875rem;
-  line-height: 0.875rem;
   color: #000;
   text-transform: uppercase;
   margin-bottom: 10px;
-  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .result-list-item__type-price {
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 768px), print {
   .result-list-item__type-price {
-    justify-content: flex-start;
     margin-bottom: 20px;
   }
 }
 
 .result-list-item__type {
+  font-size: 0.875rem;
+  line-height: 0.775rem;
   margin-right: 40px;
+}
+
+.result-list-item__price {
+  font-size: 0.875rem;
+  line-height: 0.875rem;
 }
 
 .result-list-item__buttons {
   display: flex;
-  justify-content: center;
 }
-@media screen and (min-width: 768px), print {
+@media screen and (max-width: 767px) {
   .result-list-item__buttons {
-    justify-content: flex-start;
+    justify-content: center;
   }
-}
-
-.button {
-  padding: 3.5px 8px;
-  font-size: 0.875rem;
-  line-height: 0.875rem;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-}
-@media screen and (min-width: 768px), print {
-  .button {
-    padding: 8px 17px;
-  }
-}
-
-.button--about {
-  margin-right: 6px;
-  background-color: #81b3d2;
-}
-
-.button--order {
-  background-color: #766357;
 }
 
 .result-list-item__rating-wrapper {
@@ -2302,7 +2294,7 @@ header {
 .result-list-item__rating {
   padding: 3px 9.5px;
   background-color: #f2f2f2;
-  color: #000;
+  color: #666;
   font-size: 0.875rem;
   line-height: 0.875rem;
   text-transform: uppercase;
@@ -2450,6 +2442,29 @@ header {
   color: #fff;
   border: 0;
   background-color: #81b3d2;
+}
+
+.button {
+  padding: 3.5px 8px;
+  font-size: 0.875rem;
+  line-height: 0.775rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px), print {
+  .button {
+    padding: 7.3px 17px;
+  }
+}
+
+.button--about {
+  margin-right: 6px;
+  background-color: #81b3d2;
+}
+
+.button--order {
+  background-color: #766357;
 }
 
 html {
